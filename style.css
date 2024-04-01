@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400&family=Mochiy+Pop+One&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&family=Poppins:wght@500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+*{
+    font-family:'josefin sans';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+}
+.hide{
+    display : none!important;
+}
+.wrap{
+    background-color: lightseagreen;
+    min-height: 100vh;
+    padding:20px;
+}
+.heading .title{
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.heading{
+    margin: 10px auto 40px auto;
+}
+.heading .subtitle{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.task-manager{
+   min-width: 350px;
+   max-width: 450px;
+   margin: auto;
+}
+
+.search-box,.task-box,.message{
+    background-color: white;
+    padding: 20px 25px;
+    border-radius: 3px;
+    margin: 20px 0;
+}
+.search-box .search {
+    display: flex;
+    margin: 10px 0px;
+}
+.search-box input{
+    border-radius: 3px; 
+    width: 90%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.search-box i.reset{
+    font-size: 24px;
+    height: 100%;
+    padding: 10px 0px;
+    cursor:  pointer ;
+}
+
+.task-box .tasks{
+    margin: 10px 0px;
+}
+
+.task-box li{
+    background-color: #f2f2f2;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.task-box span{
+    padding: 10px;
+}
+.task-box i.delete{
+    color: white;
+    background-color: #D82148;
+    border-radius: 2px;
+    padding: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+.task-box .add{
+    display: flex;
+    margin: 30px 0px 10px 0px;
+}
+.task-box input[type = "text"]{
+    border-radius: 3px;
+    width: 90%;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;    
+}
+.task-box input[type="submit"]{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(43, 43, 146);
+    border: 0px;
+    border-radius: 3px;
+}
+.message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message .clear{
+    border: 0px;
+    background-color: #243a9a;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}
